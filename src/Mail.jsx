@@ -18,7 +18,7 @@ const Mail = () => {
     }),
     onSubmit: async (values, { resetForm }) => {
       try {
-        const response = await fetch('https://yx-bpp-yashs-projects-21164649.vercel.app/', {
+        const response = await fetch('https://yx-fomrhw47r-yashs-projects-21164649.vercel.app/', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(values),
