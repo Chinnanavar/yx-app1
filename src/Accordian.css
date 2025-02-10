@@ -1,0 +1,38 @@
+.container{
+  width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+.btn{
+  background-color: #2dc5be;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+}
+
+.p{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  line-height: 1.5;
+  text-align: justify;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 500px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  
+}

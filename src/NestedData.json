@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Book 1",
+    "author": "Author 1",
+    "description": [
+      {"year": 2000},
+      {"genre": "Fiction"}
+    ],
+    "price": 19.99
+  },
+  {
+    "id": 2,
+    "title": "Book 2",
+    "author": "Author 2",
+    "description":[ 
+      {"year": 2010},
+      {"genre": "Non-Fiction"}
+    ],
+    "price": 24.99
+  },
+  {
+    "id": 3,
+    "title": "Book 3",
+    "author": "Author 3",
+    "description": [
+      {"year": 2015},
+      {"genre": "Fiction"}
+    ],
+    "price": 29.99
+  }
+]

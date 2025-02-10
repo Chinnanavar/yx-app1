@@ -1,0 +1,26 @@
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  margin: 10px;
+
+
+  .contaainer, .card{
+    width: 200px;
+    height: 200px;
+    background-color: #e30808;
+    color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-overflow: ellipsis;
+    overflow: scroll;
+  }
+}

@@ -1,0 +1,23 @@
+.card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  .card-item{
+    width: 200px;
+    height: 200px;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #3fcfff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #3399ff;
+    }
+  }
+}
